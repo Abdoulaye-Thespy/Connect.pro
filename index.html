@@ -43,7 +43,7 @@
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
       <a href="index.html" class="d-flex align-items-center">
-        <img src="assets/img/mylogo.svg" alt="My SVG logo" width="500" height="100" style="margin-left: -120px">
+        <img src="assets/img/mylogo.svg" alt="My SVG logo" width="600" height="100" style="margin-left: -120px">
       </a>
 
       <nav id="navbar" class="navbar">
@@ -55,6 +55,7 @@
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
           <!-- <li><a class="nav-link scrollto" href="#team">Team</a></li> -->
           <li><a class="getstarted scrollto" href="#about" style="background-color: #ba8437;">Join Us</a></li>
+          <li><a class="nav-link scrollto" id="language" href="#team">FR</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -111,7 +112,7 @@
           </div>
 
           <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-            <img src="assets/img/about.jpg" class="img-fluid" alt="">
+            <img src="assets/img/features-2.png" class="img-fluid" alt="">
           </div>
 
         </div>
@@ -1300,6 +1301,13 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script>
+    document.getElementById("language").addEventListener("click", () => {
+      window.location.href = "/FR";
+    });
+
+</script>
 
 </body>
 
