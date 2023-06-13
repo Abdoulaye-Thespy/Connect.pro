@@ -248,7 +248,7 @@ section {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #ba8437;;
+  color: #ba8437;
 }
 
 .navbar .getstarted,
@@ -336,8 +336,8 @@ section {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #012970;
-  font-size: 28px;
+  color: #ba8437;
+  font-size: 35px;
   cursor: pointer;
   display: none;
   line-height: 0;
@@ -503,6 +503,9 @@ section {
 }
 
 @media (max-width: 991px) {
+  .introduction-hub{
+    margin-top: 30px;
+  }
   .hero {
     height: auto;
     padding: 120px 0 60px 0;
@@ -519,6 +522,9 @@ section {
 }
 
 @media (max-width: 768px) {
+  .introduction-hub{
+    margin-top: 40px;
+  }
   .hero {
     text-align: center;
   }
